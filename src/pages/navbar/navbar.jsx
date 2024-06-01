@@ -1,18 +1,21 @@
-import React from 'react'
+import logo from '../../assets/logo.png';
 
 export const Navbar = () => {
   return (
-    <div className='nav-container bg-slate-400 flex items-center justify-around mb-8 py-8'> 
-    <span>Nike</span>
-    <div className="desktop-items">
-        <ul className='flex items-end bg-slate-800 justify-between'>
-            <li><a href="home">Home</a></li>
-            <li><a href="home">About</a></li>
-            <li><a href="home">Services</a></li>
-            <li></li>
-        </ul>
-        <a href="home">Contact</a>
+    <header>
+      <nav className="sticky top-0 z-50 backdrop-blur-lg border-b border-neutral-700/80 w-screen">
+        <div className="container px-4 mx-auto relative lg:text-sm">
+          <div className="flex justify-between items-center">
+            <div className="flex items-center flex-shrink-0">
+              <div className="h-10 w-10 mr-2" src={logo} alt = "logo"></div>
+              <span className='text-xl tracking-tight'>nike</span>
+              <ul>
+                <li></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </div>
+      </nav>
+    </header>
   )
 }
