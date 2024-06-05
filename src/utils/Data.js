@@ -1,5 +1,5 @@
 import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
-
+import { shieldTick, truckFast, support } from "../assets/icons";
 export const Navitems = [
     { href: "#home", label: "Home" },
     { href: "#about-us", label: "About Us" },
@@ -57,4 +57,22 @@ export const products = [
         name:'Jordan-Air 10',
         price:'$200.90'
     },
-]
+];
+
+export const services = [
+    {
+        imgURL : truckFast,
+        label: "Free shipping",
+        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+    },
+    {
+        imgURL: shieldTick,
+        label: "Secure Payment",
+        subtext: "Experience worry-free transactions with our secure payment options."
+    },
+    {
+        imgURL: support,
+        label: "Love to help you",
+        subtext: "Our dedicated team is here to assist you every step of the way."
+    },
+];
