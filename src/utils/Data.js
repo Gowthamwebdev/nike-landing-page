@@ -76,3 +76,16 @@ export const services = [
         subtext: "Our dedicated team is here to assist you every step of the way."
     },
 ];
+
+export const Reviews = [
+    {
+        label:'John Doe',
+        imgURL:customer1,
+        subtext:"Nice product,keep growing,have a great year. Enjoy your day"
+    },
+    {
+        label:'Madison Beer',
+        imgURL:customer2,
+        subtext:"Enjoy your day.Nice product,keep growing,have a great year. "
+    }
+]

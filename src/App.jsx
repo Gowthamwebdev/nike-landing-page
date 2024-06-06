@@ -3,6 +3,7 @@ import { About } from "./pages/About"
 import { Hero } from "./pages/Hero"
 import { Offers } from "./pages/Offers"
 import { Products } from "./pages/Products"
+import { Review } from "./pages/Review"
 import { Services } from "./pages/Services"
 import { Navbar } from "./pages/navbar"
 
@@ -24,6 +25,9 @@ export default function App() {
       </section>
       <section className='xl:padding-l px-12 py-12 wide:padding-r padding-b'>
         <Offers/>
+      </section>
+      <section className='xl:padding-l px-12 py-12 wide:padding-r padding-b'>
+        <Review/>
       </section>
    </main>
   )
