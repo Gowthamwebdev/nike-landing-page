@@ -2,7 +2,7 @@ import { star } from "../assets/icons";
 
 export const ProductCard = (item) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-sm:w-full items-center shadow-xl rounded-lg">
+    <div className="flex flex-1 flex-col w-full max-sm:w-full items-center rounded-lg">
       <img src={item.imgURL} alt={item.name} className="w-[282px] h-[282px]" />
       <div className="flex flex-row gap-3 mt-4 ">
         <img src={star} alt="rating" className="w-[1.2rem] h-[1.2rem]" />

@@ -3,11 +3,11 @@ import { ReviewCard } from "../components/ReviewCard";
 import { Reviews } from "../utils/Data";
 export const Review = () => {
   return (
-    <section className="flex items-center justify-center flex-col max-container bg-slate-100 p-20">
-      <h1 className="mb-8 text-4xl font-bold font-montserrat">
+    <section className="flex items-center justify-center flex-col max-container bg-slate-100 p-10">
+      <h1 className="mb-8 text-2xl lg:text-4xl font-bold font-montserrat">
         What Our <span className="text-coral-red">Customers</span> Say?
       </h1>
-      <p className=" text-slate-600 tex t-lg max-w-lg text-center mb-8 info-text">
+      <p className=" text-slate-600 tex t-lg lg:max-w-lg text-center mb-8 info-text">
         Hear genuine stories from our satisfied customers about their
         exceptional experiences with us.
       </p>

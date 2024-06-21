@@ -11,7 +11,6 @@ import {
   thumbnailShoe1,
   thumbnailShoe2,
   thumbnailShoe3,
-  instagram,
 } from "../assets/images";
 import {
   shieldTick,
@@ -113,17 +112,17 @@ export const Reviews = [
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
   },
 ];
-// export const Medias = [
-//   {
-//     label: "instagram",
-//     imgURL: instagram,
-//   },
-//   {
-//     label: "twitter",
-//     imgURL: twitter,
-//   },
-//   {
-//     label: "facebook",te
-//     imgURL: facebook,
-//   },
-// ];
+export const Medias = [
+  {
+    label: "instagram",
+    imgURL: instagram,
+  },
+  {
+    label: "twitter",
+    imgURL: twitter,
+  },
+  {
+    label: "facebook",
+    imgURL: facebook,
+  },
+];
